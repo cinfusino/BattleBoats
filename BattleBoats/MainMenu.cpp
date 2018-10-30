@@ -78,14 +78,14 @@ void MainMenu::setMenuSelection()
 
 			//Just to show how this polymorphism stuff works:
 
-			User * p_AdminUser = new AdminUser(); // player user
+			//User * p_AdminUser = new AdminUser(); // player user
 
-			cout << endl << p_AdminUser->getUserId();
-			cout << endl << p_AdminUser->getUserName();
-			cout << endl << p_AdminUser->getUserPassword();
+			//cout << endl << p_AdminUser->getUserId();
+			//cout << endl << p_AdminUser->getUserName();
+			//cout << endl << p_AdminUser->getUserPassword();
 
-			cin.get();
-			delete p_AdminUser;
+			//cin.get();
+			//delete p_AdminUser;
 
 
 
