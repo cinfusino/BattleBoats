@@ -116,7 +116,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AdminUser.h" />
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="Boat.h" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="GameMenu.h" />
+    <ClInclude Include="Cell.h" />
     <ClInclude Include="MainMenu.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="PlayerUser.h" />
@@ -124,6 +128,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AdminUser.cpp" />
+    <ClCompile Include="Board.cpp" />
+    <ClCompile Include="Boat.cpp" />
+    <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameMenu.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainMenu.cpp" />

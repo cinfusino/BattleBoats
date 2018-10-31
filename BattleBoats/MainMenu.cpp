@@ -42,6 +42,7 @@ void MainMenu::setMenuSelection()
 			cout << "\nDo Login Stuff Here";
 			cout << "\nGonna create a GameMenu";
 
+			//prompt LoginHander?
 			Menu * p_GameMenu = new GameMenu;
 			delete p_GameMenu;
 

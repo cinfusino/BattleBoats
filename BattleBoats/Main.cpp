@@ -1,6 +1,7 @@
 #include <iostream>
 #include "MainMenu.h"
-#include "GameMenu.h"
+#include <string>
+#include "Game.h"
 using namespace std;
 int main()
 {
@@ -9,6 +10,7 @@ int main()
 	Menu * p_MainMenu = new MainMenu;
 	
 	delete p_MainMenu;
+
 
 	cin.get();
 	return 0;

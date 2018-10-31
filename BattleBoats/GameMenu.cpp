@@ -1,5 +1,6 @@
 #include <iostream>
 #include "GameMenu.h"
+#include "Game.h"
 
 using namespace std;
 
@@ -40,8 +41,12 @@ void GameMenu::setMenuSelection()
 		{
 			//Play Game
 			cout << "\nDo Play Game Stuff Here";
-		}; break;
+			Game * p_Game = new Game;
 
+			delete p_Game;
+			
+		}; break;
+		
 		case 2:
 		{
 			//Edit Profile
