@@ -59,7 +59,7 @@ void Board::placeBoat(Boat boat)
 	int length = boat.getLength();
 	for (int i = length; i > 0; i--)
 	{
-		cout << "\nEnter location coordinate (11):";
+		cout << "\nEnter location coordinate (XY):";
 		string submitCell;
 		cin >> submitCell;
 		//convert to char to int
@@ -182,7 +182,7 @@ void Board::playerGuess()
 	bool valid = false;
 	while (valid == false)
 	{
-		cout << "\nEnter missile coordinates (00): ";
+		cout << "\nEnter missile coordinates (XY): ";
 		string submitCell;
 		cin >> submitCell;
 		//convert to char to int

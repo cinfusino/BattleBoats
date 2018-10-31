@@ -40,15 +40,16 @@ void MainMenu::setMenuSelection()
 		{
 			//Login
 			cout << "\nDo Login Stuff Here";
-			cout << "\nGonna create a GameMenu";
+			//cout << "\nGonna create a GameMenu";
 
-			string uName, pWord;
-
+			string uName, pWord, authCode;
 			//prompt LoginHander?
 			cout << "\nEnter Username:";
 			cin >> uName;
 			cout << "\nEnter Password:";
 			cin >> pWord;
+			//cout << "\nEnter Authentication Code";
+
 
 			
 			Menu * p_GameMenu = new GameMenu;
@@ -73,7 +74,8 @@ void MainMenu::setMenuSelection()
 			cout << "\nEnter New Password: ";
 			cin >> userPassword;
 
-			userId = 6969;
+
+			userId = 1;
 
 			User * p_PlayerUser = new PlayerUser(userName, userPassword, userId); // player user
 
