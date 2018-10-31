@@ -30,7 +30,7 @@ void Game::setupGame()
 		baseBoard->aiGuess();
 	}
 	
-	if (baseBoard->getDefeatFlag())
+	if (!baseBoard->getDefeatFlag())
 	{
 		cout << "\nYOU WON!";
 	}

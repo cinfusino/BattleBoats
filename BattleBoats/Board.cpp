@@ -215,12 +215,12 @@ void Board::playerGuess()
 			{
 				//hit
 				decrementHealth();
-				chosenCell->setSymbol('☠');
+				chosenCell->setSymbol('X');
 			}
 			else 
 			{
 				//miss
-				chosenCell->setSymbol('☹');
+				chosenCell->setSymbol('O');
 			}
 			
 			printGrid();
