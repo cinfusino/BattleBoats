@@ -4,12 +4,12 @@
 User::User(string name, string password, int id) 
 	: userName(name), userPassword(password), userId(id)
 {
-	cout << "\nCreating User";
+	//cout << "\nCreating User";
 }
 
 User::~User()
 {
-	cout << "\nDeleting User";
+	//cout << "\nDeleting User";
 }
 
 void User::setUserName(string name)

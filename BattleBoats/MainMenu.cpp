@@ -8,13 +8,13 @@ using namespace std;
 
 MainMenu::MainMenu() : Menu()
 {
-	cout << "\nCreated Main Menu";
+	//cout << "\nCreated Main Menu";
 	setMenuSelection();
 }
 
 MainMenu::~MainMenu()
 {
-	cout << "\nDeleting Main Menu";
+	//cout << "\nDeleting Main Menu";
 }
 
 void MainMenu::printMenu()

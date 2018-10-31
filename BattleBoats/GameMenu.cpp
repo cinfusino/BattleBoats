@@ -7,13 +7,13 @@ using namespace std;
 
 GameMenu::GameMenu() : Menu()
 {
-	cout << "\nCreated Game Menu";
+	//cout << "\nCreated Game Menu";
 	setMenuSelection();
 }
 
 GameMenu::~GameMenu()
 {
-	cout << "\nDeleting Game Menu";
+	//cout << "\nDeleting Game Menu";
 }
 
 void GameMenu::printMenu()
