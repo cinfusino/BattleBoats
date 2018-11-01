@@ -263,12 +263,12 @@ void Board::aiGuess()
 			{
 				//hit
 				decrementHealth();
-				chosenCell->setSymbol(167);
+				chosenCell->setSymbol('X');
 			}
 			else
 			{
 				//miss
-				chosenCell->setSymbol(164);
+				chosenCell->setSymbol('O');
 			}
 
 			printGrid();
