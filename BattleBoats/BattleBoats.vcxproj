@@ -76,7 +76,11 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Carmine\source\repos\BattleBoats;C:\Users\Carmine\source\repos\BattleBoats\BattleBoats\Domain;C:\Users\Carmine\source\repos\BattleBoats\BattleBoats\UI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Users\Carmine\source\repos\BattleBoats;C:\Users\Carmine\source\repos\BattleBoats\BattleBoats\UI;C:\Users\Carmine\source\repos\BattleBoats\BattleBoats\Domain;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
